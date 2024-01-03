@@ -21,10 +21,7 @@
   "mongodb": "3.7",
   
     
-  "mongoose": "^8.0.3",
-  
-    
-  "nodemon": "^3.0.2"
+  "mongoose": "^8.0.3"
   
   },
   
@@ -42,7 +39,7 @@
   "test": "echo \"Error: no test specified\" && exit 1",
   
     
-  "start": "nodemon index.js"
+  "start": "node index.js"
   
   },
   
@@ -50,5 +47,12 @@
   
   "license": "ISC",
   
-  "description": ""
+  "description": "",
+  
+  "devDependencies": {
+  
+    
+  "nodemon": "^3.0.2"
+  
+  }
 }
