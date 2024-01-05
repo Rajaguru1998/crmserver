@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "customers server",
+    "name": " crm customers server",
     "builds": [
         {
             "src": "./index.js",

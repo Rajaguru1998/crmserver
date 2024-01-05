@@ -50,8 +50,8 @@ const url ="mongodb+srv://rmguru98:raja123@cluster0.enssx8e.mongodb.net/customer
 export async function connectToMongoDB() {
   try {
     await mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
-    // console.log('Connected to MongoDB');
-    console.log("Database connected Sucessfully")
+    console.log('Connected to MongoDB');
+    // console.log("Database connected Sucessfully")
   } catch (error) {
     console.error('MongoDB connection error:', error);
   }
