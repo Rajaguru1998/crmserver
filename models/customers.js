@@ -20,17 +20,17 @@ const customersSchema = new mongoose.Schema(
             required: true
         },
         Number: {
+            type: Number,
+            required: true
+        },
+        email: {
             type: String,
             required: true
         },
-        Email: {
-            type: String,
-            required: true
-        },
-        Password: {
-            type: String,
-            required: true
-        },
+        // Password: {
+        //     type: String,
+        //     required: true
+        // },
         user: {
             type: ObjectId,
             ref: "user"
