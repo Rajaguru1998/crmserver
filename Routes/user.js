@@ -30,7 +30,7 @@ router.post("/signup", async (req, res) => {
         // Generate a JWT token
         const token = generateJwtToken(user._id);
 
-        res.status(201).json({ message: "Successfully signed up", token });
+        res.status(201).json({ message: "Successfully signed up" });
     } catch (error) {
         console.error(error);
         res.status(500).json({ message: "Internal server error" });
