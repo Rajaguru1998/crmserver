@@ -38,8 +38,7 @@ export function dbConnection() {
     }
 
     try {
-        // mongoose.connect("mongodb+srv://rmguru98:raj1234@cluster0.7wb6jvt.mongodb.net/customers?retryWrites=true&w=majority", params)
-        mongoose.connect("mongodb+srv://rmguru98:raj1234@cluster0.gssjabn.mongodb.net/customers?retryWrites=true&w=majority", params)
+             mongoose.connect("mongodb+srv://rmguru98:raj1234@cluster0.gssjabn.mongodb.net/customers?retryWrites=true&w=majority", params)
         console.log("Database connected Sucessfully")
     } catch (error) {
         console.log("Error connecting DB----", error)
