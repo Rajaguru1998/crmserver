@@ -19,6 +19,10 @@ const customersSchema = new mongoose.Schema(
         //     type: String,
         //    
         // },
+        Image: {
+            type: String, // Use String to store image URL or file path
+           
+        },
         Number: {
             type: Number,
            
